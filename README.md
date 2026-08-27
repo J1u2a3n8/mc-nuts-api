@@ -1,6 +1,6 @@
 # mc-nuts-api
 
-> API REST completa en .NET
+> Full-Stack REST API in .NET
 
 ![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-api)
 ![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-api)
@@ -8,66 +8,67 @@
 ![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-api?style=social)
 ![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-api)
 
-## 📋 Descripción
+## Description
 
-Proyecto destacado del portfolio - demuestra habilidades avanzadas en arquitectura y patrones. Migrado, historial reescrito, documentado para portfolio.
+A production-ready REST API built with ASP.NET Core 8, featuring Clean Architecture, Entity Framework Core, JWT authentication, OpenAPI/Swagger documentation, and comprehensive test coverage.
 
-## 🏗️ Arquitectura
+## Architecture
 
-Ver codigo para detalles.
+Clean Architecture: Controllers → Services → Domain → Infrastructure (EF Core, SQL Server)
 
-## 🚀 Inicio Rápido
+## Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
-.NET 8 SDK, Visual Studio 2022 / VS Code + C# Dev Kit
+.NET 8 SDK, Visual Studio 2022 / VS Code with C# Dev Kit
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar
+# Clone
 git clone https://github.com/J1u2a3n8/mc-nuts-api.git
 cd mc-nuts-api
 
 dotnet restore
 # dotnet build
+# dotnet ef database update
 ```
 
-### Uso
+### Usage
 
 ```bash
-dotnet run --project src/
+dotnet run --project src/MCNutsAPI
 ```
 
-## 🧪 Tests
+## Testing
 
 ```bash
 dotnet test
 ```
 
-## 📁 Estructura del Proyecto
+## Project Structure
 
 ```
 mc-nuts-api/
-├── src/              # Código fuente principal
-├── tests/            # Tests unitarios/integración
-├── docs/             # Documentación
-├── .github/          # Workflows CI/CD
+├── src/              # Main source code
+├── tests/            # Unit/integration tests
+├── docs/             # Documentation
+├── .github/          # CI/CD workflows
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**C#**, .NET 8, ASP.NET Core, Entity Framework, xUnit
+C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, Swagger, JWT, xUnit
 
-## 📄 Licencia
+## License
 
-Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
-## 👤 Autor
+## Author
 
 **J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
 
 ---
 
-⭐ Si este proyecto te fue útil, ¡dale una estrella!
+⭐ If you found this project useful, give it a star!
